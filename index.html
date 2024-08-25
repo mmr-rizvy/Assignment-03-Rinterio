@@ -4,6 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio | Your Interior Design Partner</title>
+    <!-- Google Fonts Links are here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome Icon Links-->
+    <script
+      src="https://kit.fontawesome.com/46afcb2ce5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- DaisyUI and Tailwind css Links Are Here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body class="manrope">
+    <!-- Header Section Start Here -->
+    <header>
+      <nav class="bg-gradient-to-r from-slate-50 to-slate-100">
+        <div class="navbar max-w-screen-xl mx-auto">
+          <div class="navbar-start">
+            <a class="cursor-pointer text-3xl font-extrabold"
+              ><span
+                class="w-12 h-12 p-1 bg-lime-400 inline-block align-middle rounded-full"
+                ><i class="fa-solid fa-arrow-trend-up"></i
+              ></span>
+              Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base">
+              <li><a class="font-bold hover:bg-lime-500">Home</a></li>
+              <li><a class="hover:bg-lime-500">Services</a></li>
+              <li><a class="hover:bg-lime-500">Portfolio</a></li>
+              <li><a class="hover:bg-lime-500">Blogs</a></li>
+              <li><a class="hover:bg-lime-500">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden lg:flex lg:items-center lg:space-x-4">
+              <div
+                class="flex flex-col justify-center items-center w-12 h-12 bg-white rounded-full border-solid border-2 border-lime-100"
+              >
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center w-12 h-12 bg-white rounded-full border-solid border-2 border-lime-100"
+              >
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+
+              <a class="btn rounded-full text-xl font-extrabold bg-lime-400"
+                >Book Consult</a
+              >
+            </div>
+            <div
+              class="dropdown flex flex-col justify-center items-center w-12 h-12 bg-white rounded-full border-solid border-2 border-lime-100 lg:hidden"
+            >
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero bg-base-200 min-h-screen flex flex-col">
+        <div>
+          <img src="img/banner.png" alt="picture" />
+        </div>
+        <div class="hero-content text-center">
+          <div class="max-w-4xl">
+            <h1 class="text-5xl font-bold">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="py-6">
+              At Rinterio, we believe that a well-designed space is more than
+              just aesthetically pleasing—it's a reflection of who you are. Our
+              interior design team specializes in creating environments
+            </p>
+            <button class="btn bg-lime-300 text-xl hover:bg-lime-400">
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End Here -->
+    <!-- Main Section Start Here -->
+    <main></main>
+    <!-- Main Section End Here -->
+    <!-- Footer Section Start Here -->
+    <footer></footer>
+    <!-- Footer Section End Here -->
+  </body>
 </html>
